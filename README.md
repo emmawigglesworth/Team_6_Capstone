@@ -1,11 +1,11 @@
 # JustDecide
 
 # Developers:
-Derek Li
-Damien Cheung
-Emma Wigglesworth
-Jad Haytaoglu
-Temituoyo Ugborogho
+Derek Li <br>
+Damien Cheung <br>
+Emma Wigglesworth <br>
+Jad Haytaoglu <br>
+Temituoyo Ugborogho <br>
 
 # Project Description:
 
