@@ -7,11 +7,11 @@ Emma Wigglesworth <br>
 Jad Haytaoglu <br>
 Temituoyo Ugborogho <br>
 
-### Supervisor: Dr. Jake Nease
+Supervisor: Dr. Jake Nease
 
-### Supervisor's e-mail address: neasej@mcmaster.ca
+Supervisor's e-mail address: neasej@mcmaster.ca
 
-### Project title: McMaster Softball League Online Scheduling and League Management Platform
+Project title: McMaster Softball League Online Scheduling and League Management Platform
 
 # Project Description:
 
