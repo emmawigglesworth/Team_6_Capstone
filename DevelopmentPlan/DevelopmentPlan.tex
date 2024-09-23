@@ -153,9 +153,26 @@ for deadlines.}
 
 \section{Proof of Concept Demonstration Plan}
 
-What is the main risk, or risks, for the success of your project?  What will you
-demonstrate during your proof of concept demonstration to convince yourself that
-you will be able to overcome this risk?
+\subsection{Project Risks}
+
+\begin{itemize}
+  \item \textbf{Login, Registration, and User Roles:} Establishing a secure login and registration system while ensuring proper role assignments can present challenges, particularly in maintaining data privacy and preventing unauthorized access.
+  \item \textbf{Scheduling:} Managing game schedules across multiple divisions and handling rescheduling due to conflicts can introduce complexities in both logic and user interface design. Some research on schedule generation is required.
+  \item \textbf{Payment Gateway Integration:} Integrating a secure payment gateway for processing transactions poses risks, including potential transaction failures and vulnerabilities in handling sensitive payment information (Need to confirm if this is in scope).
+  \item \textbf{Real Time Communication:} Supporting communication between captains is a desired feature for the platform. If a real-time communication tool such as a chat (instead of providing contact information) is the chosen direction, some background on Websockets and automated notifications would prove useful.
+  \item \textbf{Deployment and Scalability:} Deploying the application in a secure and stable manner also entails ensuring the platform is reliable under real-world conditions, especially as traffic increases during the season, and that updates or patches don’t introduce bugs or downtime. Approximately 1000 unique participants across 30-40 teams are using the current web page, and scalability must be acknowledged in design and implementation.
+\end{itemize}
+\subsection{Proof of Concept Demonstration}
+
+To address these risks, the PoC demonstration will focus on the following key areas to mitigate these concerns:
+
+\begin{itemize}
+	\item \textbf{Login, Registration, and User Roles:} \\ Goal: A working registration page where users can create accounts, log in, and see different views based on their roles. A demo admin will be able to access restricted settings while regular users can only view their team pages. 
+	\item \textbf{Scheduling:} \\ Goal: A minimal working scheduling system that auto-generates a consistent season schedule while considering all teams and division, with an interface for administrators to adjust game times and dates, and for teams to request rescheduling. 
+  \item \textbf{Payment Gateway Integration:} \\ Further information/research is required to understand the current and desired methods of payment within the GSA Softball league. 
+  \item \textbf{Real-Time Communication:} \\ Goal: A basic messaging interface for real-time communication between players, captains, and administrators to show live message delivery, Can be accomplished with research on Websockets API.
+  \item \textbf{Deployment and Scalability:} \\ Goal: A live deployment of the minimal POC on Heroku or similar hosting platforms, demonstrating real-time accessibility and showcasing a the ability for simultaneous user interactions with the platform.
+\end{itemize}
 
 \section{Expected Technology}
 
