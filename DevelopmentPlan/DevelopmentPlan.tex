@@ -397,16 +397,16 @@ A subclass should behave correctly according to its parent class. For example, i
 
 \subsubsection*{Interface Segregation Principle}
 
-Smaller, more specific interfaces to avoid unnecessary methods. Our clients should only access the interfaces they need.
+Smaller, more specific interfaces to avoid unnecessary methods. Our clients should only access the interfaces they need. \\
 
-For example, our playerStats interface should only handle player statistics, while our teamStats interface should only handle team stats. This way, we do not have one big interface that handles both player and team stats, when we are only looking for one or the other.
+\noindent For example, our playerStats interface should only handle player statistics, while our teamStats interface should only handle team stats. This way, we do not have one big interface that handles both player and team stats, when we are only looking for one or the other.
 
 
 \subsubsection*{Dependency Inversion Principle}
 
-High-level modules should not depend on low-level modules; rather, both should rely on abstractions. This principle increases flexibility and modularity.
+High-level modules should not depend on low-level modules; rather, both should rely on abstractions. This principle increases flexibility and modularity. \\
 
-For example, our platform (high-level) should not depend directly on a specific database (low-level), such as MongoDB. Instead, there should be an abstract data layer, allowing us to swap out the database for another if needed, without impacting the rest of the system. In this way, the platform can work with a database, but the specific implementation remains flexible.
+\noindent For example, our platform (high-level) should not depend directly on a specific database (low-level), such as MongoDB. Instead, there should be an abstract data layer, allowing us to swap out the database for another if needed, without impacting the rest of the system. In this way, the platform can work with a database, but the specific implementation remains flexible.
 
 \subsection*{Responsive and Accessible Design}
 
@@ -414,7 +414,9 @@ Users have a variety of needs, as all users are different individuals. We want o
 
 \subsection*{API Design \& Error Handling}
 
-We want our design to follow REST API conventions, including descriptive endpoints that are well documented. We also need proper error handling throughout our functionalities to ensure that both the user and our system understand what error is being communicated, which will enhance the overall experience of our platform. For example, if a user enters the wrong password when logging in, that message should be conveyed back to the user. This password error must also be logged into our system so that our developers can see the error.
+We want our design to follow REST API conventions, including descriptive endpoints that are well documented. We also need proper error handling throughout our functionalities to ensure that both the user and our system understand what error is being communicated, which will enhance the overall experience of our platform. \\
+
+\noindent For example, if a user enters the wrong password when logging in, that message should be conveyed back to the user. This password error must also be logged into our system so that our developers can see the error.
 
 \subsection*{Documentation}
 
